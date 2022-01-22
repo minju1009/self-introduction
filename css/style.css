@@ -2,6 +2,7 @@
 
 @import "navbar.css";
 @import "home.css";
+@import "about.css";
 
 /* Global */
 :root {
@@ -54,4 +55,42 @@ button{
 img{
     width: 630px;
     height: auto;
+}
+
+/* Contact */
+#contact{
+    background-color: var(--color-mint);
+    color: white;
+    padding: var(--padding-bigger);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Contact-left */
+.contact__left{
+    flex: 1;
+}
+
+/* Contact-right */
+
+.contact__right{
+    flex: 1;
+}
+
+.contact__right__title{
+    padding: 0px 400px 0px 0px;
+}
+
+.contact__minjukim{
+    font-weight: var(--font-small);
+    font-size: 3vw;
+    text-align: left;
+}
+
+.contact__text{
+    color: var(--color-white);
+    font-size: var(--font-regular);
+    font-weight: 500;
 }
