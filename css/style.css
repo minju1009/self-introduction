@@ -1,6 +1,7 @@
 @import "reset.css";
 
 @import "navbar.css";
+@import "home.css";
 
 /* Global */
 :root {
@@ -36,7 +37,7 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins','Roboto', sans-serif;
     cursor: default;
 
 }
@@ -47,45 +48,4 @@ button{
     border:none;
     outline: none;
 }
-
-
-/* Home */
-
-#home{
-    padding: 0px, var(--padding);
-    background: rgb(86,37,35);
-    background: linear-gradient(180deg, rgba(86,37,35,1) 0%, rgba(104,47,45,1) 49%, rgba(90,37,35,1) 100%);
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-}
-
-.home__left{
-    margin-top: 150px;
-    width: 50%;
-    padding: 90px 0px 0px var(--padding);
-
-}
-
-.home__title{
-    color: var(--color-white);
-    font-size: var(--font-xx-large);
-    font-weight: 500;
-}
-
-.home__right{
-    width: 763px;
-    height: 496px;
-    background-color: var(--color-light-pink);
-    display: relative;
-    top: 200px;
-}
-
-.home__right img{
-    max-width: 90%;
-    display: absolute;
-    top: 16px;
-    left: 35px;
-}
-
 
