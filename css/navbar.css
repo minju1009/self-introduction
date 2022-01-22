@@ -1,0 +1,38 @@
+/* Navbar */
+
+#navbar {
+    display: fixed;
+    padding: 20px var(--padding);
+    background-color: rgba(86,37,35,1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.navbar__logo__minjukim{
+    font-size: var(--font-regular);
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.navbar__menu{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__menu__item{
+    padding: 8px 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar__menu__item:hover{
+    background-color: var(--color-dark-pink);
+    color: var(--color-dark-brown);
+    font-weight: var(--weight-semi-bold);
+}
