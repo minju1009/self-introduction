@@ -1,13 +1,15 @@
 /* Navbar */
 
 #navbar {
-    display: fixed;
+    width: 100%;
+    position: fixed;
     padding: 20px var(--padding);
     background-color: rgba(86,37,35,1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: var(--color-white);
+    z-index: 100;
 }
 
 .navbar__logo__minjukim{

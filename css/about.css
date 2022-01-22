@@ -1,0 +1,80 @@
+
+/* Main picture */
+#mainpicture{
+    background-color: var(--color-light-pink);
+    height: auto;
+}  
+
+#mainpicture img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* About */
+.about__container{
+    padding: var(--padding-bigger);
+    background-color: var(--color-light-pink);
+    display: grid;
+    height: 230vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 2.2fr 1.7fr 2.7fr 3.3fr; 
+    grid-gap: 0.6rem;
+}
+
+#tree__main{
+    width: 100%;
+}
+
+#baking__main{
+    width: 100%;
+}
+
+
+.about__container img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+/* putting on a grid */
+#eat{
+    grid-column: 1/6;
+    grid-row: 1/2;
+
+}
+
+#tree{
+    grid-column: 6/13;
+    grid-row: 1/3;
+}
+
+#stollen{
+    grid-column: 1/6;
+    grid-row: 2/4;
+}
+
+#swingdance{
+    grid-column: 6/13;
+    grid-row: 3/4;
+}
+
+#photography{
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+
+#travel{
+    grid-column: 5/9;
+    grid-row: 4/5;
+}
+
+#workout{
+    grid-column: 9/13;
+    grid-row: 4/5;
+}
+

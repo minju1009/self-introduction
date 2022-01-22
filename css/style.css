@@ -12,6 +12,7 @@
     --color-white: white;
     --color-mint: #6AA4A3;
     --color-dark-brown: rgba(86,37,35,1);
+    --color-light-beige: #F8F8F8;
     
     /* Font size */
     --font-xx-large:72px;
@@ -28,6 +29,7 @@
 
     /* padding*/
     --padding: 40px;
+    --padding-bigger: 130px;
 }
 
 /* Universal tags */
@@ -49,3 +51,7 @@ button{
     outline: none;
 }
 
+img{
+    width: 630px;
+    height: auto;
+}

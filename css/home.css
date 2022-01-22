@@ -11,7 +11,7 @@
 }
 
 .home__left{
-    margin-top: 150px;
+    margin-top: 240px;
     width: 50%;
     padding: 60px 0px 0px var(--padding);
 
@@ -19,14 +19,14 @@
 
 .home__title{
     color: var(--color-white);
-    font-size: var(--font-xx-large);
+    font-size: 4.3vw;
     font-weight: var(--weight-semi-bold);
     margin-bottom: 18px;
     font-family: Poppins;
 }
 
 .home__description{   
-    width: 80%;
+    width: 76.5%;
     color: var(--color-white);
     font-size: var(--font-regular);
     font-weight: 500;
@@ -44,20 +44,6 @@
     background-position: 100% 100%;
     background-size: 100% 2px;
 }
-  
-
-.home__right{
-    margin: 150px 135px 0px 0px;
-    width: 763px;
-    height: 496px;
-    background-color: var(--color-light-pink);
-    top: 200px;
-}
-
-.home__right img{
-    max-width: 90%;
-    
-}
 
 .home__contact {
     margin-top: 24px;
@@ -70,5 +56,26 @@
 
 .home__contact:hover{
     background-color: var(--color-dark-pink);
+    font-weight: var(--weight-semi-bold);
 }
+
+/* to do: input video later */
+
+.home__right{
+    width: 763px;
+    height: 496px;
+    background-color: var(--color-light-pink);
+    position: relative;
+    top: 220px;
+    right: 135px;
+
+}
+
+.home__right img{
+    width: 710px;
+    position: absolute;
+    top:  11px;
+    left: 26.5px;
+}
+
 
