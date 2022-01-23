@@ -1,25 +1,16 @@
 
-/* Main picture */
-#mainpicture{
-    background-color: var(--color-dark-beige);
-    height: auto;
-}  
-
-#mainpicture img{
-    margin: 0 auto;
-    width: 100%;
-}
-
 /* About */
 .about__container{
-    padding: 80px var(--padding-bigger);
+    margin-top: 30px;
+    padding: 80px var(--padding-bigger) 0px;
     background-color: #A19991;
     display: grid;
-    height: 230vh;
+    height: 220vh;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 2.2fr 1.7fr 2.7fr 3.3fr; 
     grid-gap: 0.6rem;
 }
+
 
 #tree__main{
     width: 100%;
@@ -45,36 +36,85 @@
 #eat{
     grid-column: 1/6;
     grid-row: 1/2;
+    position: relative;
 
 }
 
 #tree{
     grid-column: 6/13;
     grid-row: 1/3;
+    position: relative;
 }
 
 #stollen{
     grid-column: 1/6;
     grid-row: 2/4;
+    position: relative;
 }
 
 #swingdance{
     grid-column: 6/13;
     grid-row: 3/4;
+    position: relative;
 }
 
 #photography{
     grid-column: 1/5;
     grid-row: 4/5;
+    position: relative;
 }
 
 #travel{
     grid-column: 5/9;
     grid-row: 4/5;
+    position: relative;
 }
 
 #workout{
     grid-column: 9/13;
     grid-row: 4/5;
+    position: relative;
 }
 
+/* Card layout */
+
+.info:hover{
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 20%);
+    display: block;
+    font-family:'Noto Sans KR', sans-serif;
+    color: white;
+    font-weight: 300;
+    opacity: 0;
+}
+
+.info__when{
+    padding: 60px 60px 2px;
+}
+
+
+.info__title{
+    padding: 0px 57px;
+    line-height: 60px;
+    font-size: var(--font-large);
+}
+
+.info__text{
+    padding: 35% 60px 60px;
+    line-height: 1.3em;
+}
+
+.info__text span{
+    text-decoration: line-through;
+}

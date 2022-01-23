@@ -2,45 +2,101 @@
 #about__text{
     background-color: var(--color-dark-beige);
     position: relative;
-    height: 30vh;
+    height: 300px;
 }
+
 
 #about__text span{
     display: block;
 }
 
-#about__text span:first-child, #about__text span:last-child{
+.about__text-big{
     color: white;
-    font-size: 12vw;
+    font-size: 10vw;
     font-weight: 500;
     text-transform: uppercase;
     margin: auto;
+    position: absolute; 
+    letter-spacing: -5px;
+}
+
+#happiness{
+    top: -82px;
+    left: 250px;
+}
+
+
+/* keyframes for happiness */
+@keyframes slide-in-from-left-to-right{
+    from{
+        left: 150px;
+        opacity: 0;
+    }
+    to{
+        left: 250px;
+        opacity: 1;
+    }
+}
+@keyframes slide-out-from-right-to-left{
+    from{
+        left: 250px;
+        opacity: 1;
+    }
+    to{
+        left: 150px;
+        opacity: 0;
+    }
+}
+
+#excitement{
+    top: 60px;
+    right: 250px;
+}
+
+/* keyfrmaes for happy */
+@keyframes slide-in-from-right-to-left{
+    from{
+        right: 150px;
+        opacity: 0;
+    }
+    to{
+        right: 250px;
+        opacity: 1;
+    }
+}
+@keyframes slide-out-from-left-to-right{
+    from{
+        right: 250px;
+        opacity: 1;
+    }
+    to{
+        right: 150px;
+        opacity: 0;
+    }
+}
+
+
+.about__text-little{
+    color: white;
+    font-size: 2vw;
     position: absolute;
 }
 
-.about__text-things{
-    left: 20%;
-    top : -39%;
+#indulge{
+    top: -100px;
+    left: 260px;
 }
 
-.about__text-that-make-me{
-    position: absolute;
-    left:300px;
-    top: 45px;
-    font-size: 3.2vw;
-    color: #4F524F;
-   
-}
-
-.about__text-happy{
-    right: 21%;
-    top: 18%;
+#and{
+    top: 23px;
+    right: 475px;
+    font-size: 2.5vw;
 }
 
 /* subtext */
 
 #about__text_subtext{
-    padding: 0 var(--padding);
+    padding: 300px var(--padding);
     background-color: var(--color-dark-beige);
     color: white;
     height: auto;
@@ -55,48 +111,5 @@
     text-align: center;
 }
 
-/* keyframes for happy */
 
-@keyframes slide-in-from-left-to-right{
-    from{
-        left: 3%;
-        opacity: 0.1;
-    }
-    to{
-        left: 20%;
-        opacity: 1;
-    }
-}
-@keyframes slide-out-from-right-to-left{
-    from{
-        left: 20%;
-        opacity: 1;
-    }
-    to{
-        left: 3%;
-        opacity: 0.1;
-    }
-}
 
-/* keyfrmaes for happy */
-
-@keyframes slide-in-from-right-to-left{
-    from{
-        right: 5%;
-        opacity: 0.1;
-    }
-    to{
-        right: 21%;
-        opacity: 1;
-    }
-}
-@keyframes slide-out-from-left-to-right{
-    from{
-        right: 21%;
-        opacity: 1;
-    }
-    to{
-        right: 0;
-        opacity: 0.1;
-    }
-}

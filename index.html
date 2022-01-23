@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b2df5a4a7b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- navbar -->
@@ -24,67 +23,95 @@
                 <li class="navbar__menu__item">Contact</li>
         </ul>
     </nav>
-
-    <!-- Home -->
-    <section id="home">
-        <div class="home__left">
-            <h1 class="home__title">Life is too short<br>to spend it being<br>angry and bored.</h1>
-            <p class="home__description"> So indulge in happiness and excitement while you can</p>
-            <button class="home__contact">Contact Me</button>
-        </div>
-        <div class="home__right">
-            <!-- 비디오 넣을거지만 임시로 사진 -->
-            <img src="img/main.JPG" />
-        </div>
-
-    </section>
     
     <!-- Main picture -->
     <section id="mainpicture">
-        <div class="mainpicture">
-            <img id="mainpicture__main" src="img/main.JPG">
+        <div class="quote__container">
+            <div class="eyebrow">"Barbara Johnson"</div>
+            <h1 class="quote">Life is too short <br> to spend it being<br><span>angry</span>, <span>bored</span>, or <span>dull</span>.</h1>
+           
         </div>
     </section>
 
     <!-- Text About me -->
     <div id="about__text">
-        <span class="about__text-things">Things</span>           
-        <span class="about__text-that-make-me">that make me</span>
-        <span class="about__text-happy">happy</span>
+        <span id="indulge" class="about__text-little">So, indulge in</span>
+        <span id="happiness" class="about__text-big">happiness</span>           
+        <span id="and" class="about__text-little">and</span>        
+        <span id="excitement" class="about__text-big">excitement</span>
+        <div id="about__text_subtext">
+            <p>"당신을 행복하게 하는 것은 무엇인가요?"</p>
+        </div>
+        <div id="hide"></div>
     </div>
-    <div id="about__text_subtext">
-        <p>...are '맛있는'음식, my dog 뜨리, baking with my mom, swing dance, trying new things, traveling with my loved ones, and workout.
-        If you are ever interested, see the below for more descriptions. I hope to get to know your stories, too! </p>
-    </div>
+
+
 
     <!-- About -->
     <div class="about__container">
         <div id="eat">
             <img id="eat__main" src="img/eat.jpeg">
+            <div class="info">
+                <p class="info__when">2020년, 여름</p>
+                <p class="info__title">맛있는건 늘 짜릿해</p>
+                <p class="info__text">샌드위치를 먹으러 갔던 석촌호수 맛집, 혹시 여기 아는 분 계신가요?<br>맛집 초대라면 언제든 달려가겠습니다. <br><span>기다려! 나 지금 과소비하러 달려가고 있어!</span></p> 
+            </div>
         </div>
 
         <div id="tree">
             <img id="tree__main" src="img/뜨리.jpeg">
+            <div class="info">
+                <p class="info__when">2021년, 봄</p>
+                <p class="info__title">나 좀 놀아주란 말이야!</p>
+                <p class="info__text">남동생이 시장에서 만오천원에 데려온 귀족강아지 우리 뜨리! <br>우리 뜨리는 매일 심심한 거 외에, 요즘 가장 큰 고민이 있습니다. <br>그건 바로 다.이.어.트!!! <br><br>다이어트 한 지 한 달이 넘었지만 산책할 때 먹을것만 찾으러 다녀서 오히려 1kg가 쪘다는데요... <br>몸무게가 10kg에 육박하는 우리 뜨리, 과연 날씬해질 수 있을까요?</p> 
+            </div>
         </div>
 
         <div id="stollen">
             <img id="baking__main" src="img/stollen-resize.png">
+            <div class="info">
+                <p class="info__when">2021년, 크리스마스</p>
+                <p class="info__title">슈톨렌 맛집, 우리집</p>
+                <p class="info__text">슈톨렌 250개, 혹시 만들어보셨나요?<br>저는 해봤는데요. 꼭 사드시길 바랍니다. <br><br>취미로 시작했다가 이젠 어언 10년차 베이커가 된 자랑스러운 엄마와 함께하는 베이킹 시간은 제가 좋아하는 시간 중에 하나입니다. <br> 갓 나온 바게트를 베어물면 '빠작, 쫀쫀~' 기냥 천국행 가는거에요~ <br><br>그렇게, 빵 덕후 손에는 코딩하면서도 빵이...
+            </div>
         </div>
 
         <div id="swingdance">
-            <img id="swingdance__main" src="img/swingdance.png">     
+            <img id="swingdance__main" src="img/swingdance.png"> 
+            <a href="https://www.youtube.com/watch?v=dBADu_btJe8" target="_blank">
+            <div class="info">
+                <p class="info__when">2020년, 8월의 어느 날</p>
+                <p class="info__title">시골남자와 차도녀, 그 결말은?</p>
+                <p class="info__text">취미로 스윙댄스를 춘 지 1년이 되는 날, 같이 춤을 배우기 시작했던 동기들과 기념공연을 준비했습니다.<br>실력은 부족하지만 직접 안무도 짜고 서로 알려주며 재밌게 준비했던 공연, <br>코로나로 취소된 지 4개월 후에 마스크라도 끼고 무대를 올릴 수 있었습니다. <br> 지금은 잠시 멈춰있는 내 인생의 최대 낙, 스윙댄스! 코로나야 어서 물러가라 즈에에에-발! </p> 
+            </div>    
+            </a>
         </div>
 
         <div id="photography">
             <img id="photography__main" src="img/photograph3.jpeg">
+            <div class="info">
+                <p class="info__when">2020년, 겨울</p>
+                <p class="info__title">새로운 시도 #1</p>
+                <p class="info__text">우연한 기회로 찍게 된 사진. <br> 낯선 시도가 인생에 주는 즐거움이 있지요! <br><br>없는 분위기도 만들어주신 작가님께 박수를!</p> 
+            </div>
         </div>
 
         <div id="travel">
             <img id="travel__main" src="img/travel-resize.png">
+            <div class="info">
+                <p class="info__when">2018년, 11월</p>
+                <p class="info__title">내 최애 여행지,<br>바르셀로나</p>
+                <p class="info__text">매년 봄과 가을, 비수기면 엄마와 함께 여행을 떠났었습니다. 둘이 함께 다녔던 10여개의 국가 중 가장 좋았던 곳은 바르셀로나. <span>(처음으로 여행 중 안싸워서 그런건 아니구요...)</span></p> 
+            </div>
         </div>
 
         <div id="workout">
             <img id="workout__main" src="img/workout-resize.png">
+            <div class="info">
+                <p class="info__when">2021년, 여름</p>
+                <p class="info__title">새로운 시도 #2</p>
+                <p class="info__text">바디프로필 D-50일을 남겨두고 찍었던 사진. 물론 지금은 슈퍼요요가 왔습니다.<br><br>코딩과 운동은 아주 비슷한 것 같습니다. 둘다 꾸준히 해도 실력이 느는게 티가 안나지만, 나중에 돌아보면 그 흔적이 남게 되니깐요.<br>멘토님, 지금 이 글을 보고 계시다면 제발 그렇다고 말씀해주세요..(간절)</p> 
+            </div>
         </div>
     </div>
 
@@ -92,20 +119,11 @@
 
      <!-- Contact -->
      <section id="contact">
-        <div class="contact__left">
-            <a class="button" href="mailto:email@email.de"><i class="fas fa-envelope-open-text"></i></a>
+        <div class="contact__icon">
+            <button class="contact__icon__item"><i class="fab fa-github"></i></button>
+            <button class="contact__icon__item"><i class="fab fa-instagram"></i></button>
+            <button class="contact__icon__item"><i class="fab fa-linkedin"></i></button>
         </div>
-
-        <div class="contact__right">
-            <div class="contact__right__title">
-                <h2 class="contact__minjukim">Get in Touch</h2>
-            </div>
-            <div class="contact__right__description">
-                <p class="contact__text">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you! </p>
-                <p class="contact__rights">2022 Minju Kim - All rights reserved</p>
-            </div>
-
-       
     </section>    
   
 

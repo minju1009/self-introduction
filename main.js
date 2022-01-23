@@ -1,37 +1,49 @@
 'use strict';
 
 // Animation for Things and Happy
-const thingsText = document.querySelector('.about__text-things');
+const happiness = document.querySelector('#happiness');
 
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY;
-    if (value > 1200) {
-        thingsText.style.animation = 'slide-in-from-left-to-right 0.8s ease-out'
+    console.log(value);
+    if (value > 10) {
+        happiness.style.animation = 'slide-in-from-left-to-right 0.8s ease-out'
     
     } else  {
-        thingsText.style.animation = 'slide-out-from-right-to-left 0.6s ease-out forwards'
+        happiness.style.animation = 'slide-out-from-right-to-left 0.6s ease-out forwards'
     }
 })
 
-const happyText = document.querySelector('.about__text-happy');
+const excitement = document.querySelector('#excitement');
 
 window.addEventListener('scroll',() =>{
     let value = window.scrollY;
-    if (value > 1200) {
-        happyText.style.animation = 'slide-in-from-right-to-left 0.8s ease-out'
+    if (value > 10) {
+        excitement.style.animation = 'slide-in-from-right-to-left 0.8s ease-out'
     } else {
-        happyText.style.animation = 'slide-out-from-left-to-right 0.6s ease-out forwards'
+        excitement.style.animation = 'slide-out-from-left-to-right 0.6s ease-out forwards'
     }
 })
 
-const middleText = document.querySelector('.about__text-that-make-me');
+const indulge = document.querySelector('#indulge');
 
 window.addEventListener('scroll',() => {
     let value = window.scrollY;
-    if (value > 1200) {
-        middleText.style.animation = 'appear 0.8s ease-out'
+    if (value > 10) {
+        indulge.style.animation = 'appear 0.8s ease-out'
     } else{
-        middleText.style.animation = 'disappear 0.6s ease-out forwards'
+        indulge.style.animation = 'disappear 0.6s ease-out forwards'
+    }
+})
+
+const and = document.querySelector('#and');
+
+window.addEventListener('scroll',() => {
+    let value = window.scrollY;
+    if (value > 10) {
+        and.style.animation = 'appear 0.8s ease-out'
+    } else{
+        and.style.animation = 'disappear 0.6s ease-out forwards'
     }
 })

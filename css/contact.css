@@ -1,0 +1,14 @@
+#contact{
+    padding: 0px var(--padding-bigger) 30px;
+    text-align: end;
+}
+
+.conatact__icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fab{
+    font-size: var(--font-medium);
+    color: white;
+}

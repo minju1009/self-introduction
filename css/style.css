@@ -1,9 +1,10 @@
 @import "reset.css";
 
 @import "navbar.css";
-@import "home.css";
 @import "text.css";
 @import "about.css";
+@import "contact.css";
+@import "main.css";
 
 
 /* Global */
@@ -45,6 +46,8 @@ body {
     margin: 0;
     font-family: 'Poppins','Roboto', sans-serif;
     cursor: default;
+    background-color: var(--color-dark-beige);
+    height: 360vh;
 
 }
 
@@ -60,17 +63,7 @@ img{
     height: auto;
 }
 
-/* keyframes */
-@keyframes slide-in-bottom-top{
-    from{
-        top:10px;
-        opacity: 0;
-    }
-    to{
-        top: 0;
-        opacity: 1;
-    }
-}
+
 
 @keyframes appear {
     from{
@@ -98,41 +91,3 @@ img{
 
 
 
-
-/* Contact */
-#contact{
-    background-color: var(--color-mint);
-    color: white;
-    padding: var(--padding-bigger);
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* Contact-left */
-.contact__left{
-    flex: 1;
-}   
-
-/* Contact-right */
-
-.contact__right{
-    flex: 1;
-}
-
-.contact__right__title{
-    padding: 0px 400px 0px 0px;
-}
-
-.contact__minjukim{
-    font-weight: var(--font-small);
-    font-size: 3vw;
-    text-align: left;
-}
-
-.contact__text{
-    color: var(--color-white);
-    font-size: var(--font-regular);
-    font-weight: 400;
-}
