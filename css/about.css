@@ -1,7 +1,7 @@
 
 /* Main picture */
 #mainpicture{
-    background-color: var(--color-light-pink);
+    background-color: var(--color-dark-beige);
     height: auto;
 }  
 
@@ -12,8 +12,8 @@
 
 /* About */
 .about__container{
-    padding: var(--padding-bigger);
-    background-color: var(--color-light-pink);
+    padding: 80px var(--padding-bigger);
+    background-color: #A19991;
     display: grid;
     height: 230vh;
     grid-template-columns: repeat(12, 1fr);

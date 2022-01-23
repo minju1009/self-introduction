@@ -1,0 +1,102 @@
+/* Things that make me happy */
+#about__text{
+    background-color: var(--color-dark-beige);
+    position: relative;
+    height: 30vh;
+}
+
+#about__text span{
+    display: block;
+}
+
+#about__text span:first-child, #about__text span:last-child{
+    color: white;
+    font-size: 12vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: auto;
+    position: absolute;
+}
+
+.about__text-things{
+    left: 20%;
+    top : -39%;
+}
+
+.about__text-that-make-me{
+    position: absolute;
+    left:300px;
+    top: 45px;
+    font-size: 3.2vw;
+    color: #4F524F;
+   
+}
+
+.about__text-happy{
+    right: 21%;
+    top: 18%;
+}
+
+/* subtext */
+
+#about__text_subtext{
+    padding: 0 var(--padding);
+    background-color: var(--color-dark-beige);
+    color: white;
+    height: auto;
+}
+
+#about__text_subtext p{
+    margin: 0 20%;
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+    line-height: 1.3em;
+    display: block;
+    text-align: center;
+}
+
+/* keyframes for happy */
+
+@keyframes slide-in-from-left-to-right{
+    from{
+        left: 3%;
+        opacity: 0.1;
+    }
+    to{
+        left: 20%;
+        opacity: 1;
+    }
+}
+@keyframes slide-out-from-right-to-left{
+    from{
+        left: 20%;
+        opacity: 1;
+    }
+    to{
+        left: 3%;
+        opacity: 0.1;
+    }
+}
+
+/* keyfrmaes for happy */
+
+@keyframes slide-in-from-right-to-left{
+    from{
+        right: 5%;
+        opacity: 0.1;
+    }
+    to{
+        right: 21%;
+        opacity: 1;
+    }
+}
+@keyframes slide-out-from-left-to-right{
+    from{
+        right: 21%;
+        opacity: 1;
+    }
+    to{
+        right: 0;
+        opacity: 0.1;
+    }
+}

@@ -10,12 +10,15 @@
     height: 100vh;
 }
 
+/* Home left */
 .home__left{
     margin-top: 240px;
     width: 50%;
     padding: 60px 0px 0px var(--padding);
-
+    position: relative;
+    animation: slide-in-bottom-top 1s ease-out;
 }
+
 
 .home__title{
     color: var(--color-white);
@@ -34,7 +37,7 @@
     background-image: linear-gradient(white,white);
     background-position: 0 100%;
     background-size: 0% 2px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     transition: 
         background-size 0.3s,
         background-position 0s 0.3s;

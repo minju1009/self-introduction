@@ -2,7 +2,9 @@
 
 @import "navbar.css";
 @import "home.css";
+@import "text.css";
 @import "about.css";
+
 
 /* Global */
 :root {
@@ -14,6 +16,7 @@
     --color-mint: #6AA4A3;
     --color-dark-brown: rgba(86,37,35,1);
     --color-light-beige: #F8F8F8;
+    --color-dark-beige: #A19991;;
     
     /* Font size */
     --font-xx-large:72px;
@@ -57,6 +60,45 @@ img{
     height: auto;
 }
 
+/* keyframes */
+@keyframes slide-in-bottom-top{
+    from{
+        top:10px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 /* Contact */
 #contact{
     background-color: var(--color-mint);
@@ -71,7 +113,7 @@ img{
 /* Contact-left */
 .contact__left{
     flex: 1;
-}
+}   
 
 /* Contact-right */
 
@@ -92,5 +134,5 @@ img{
 .contact__text{
     color: var(--color-white);
     font-size: var(--font-regular);
-    font-weight: 500;
+    font-weight: 400;
 }
