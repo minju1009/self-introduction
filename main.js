@@ -6,7 +6,6 @@ const happiness = document.querySelector('#happiness');
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY;
-    console.log(value);
     if (value > 10) {
         happiness.style.animation = 'slide-in-from-left-to-right 0.8s ease-out'
     
