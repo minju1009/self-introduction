@@ -127,3 +127,51 @@
 .info__text span{
     text-decoration: line-through;
 }
+
+/* Make the grid responsive */
+@media only screen and (max-width: 550px){
+    .about__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 4px;
+    }
+
+    .about__container img{
+        object-fit: cover;
+    }
+    
+    #eat{
+        grid-row: 1/2;
+    
+    }
+    
+    #tree{
+       grid-row: 2/3;
+    }
+    
+    #stollen{
+        grid-row: 3/4;
+
+    }
+    
+    #swingdance{
+        grid-row: 4/5
+    }
+    
+    #photography{
+        grid-row: 5/6;
+    }
+    
+    #travel{
+        grid-row: 6/7;
+    }
+    
+    #workout{
+        grid-row: 7/8;
+    }
+
+
+
+
+}
+
