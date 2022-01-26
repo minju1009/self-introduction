@@ -12,6 +12,10 @@
     z-index: 100;
 }
 
+#navbar.black{
+    background-color: black;
+}
+
 .navbar__logo__minjukim{
     font-size: var(--font-regular);
     font-weight: 500;

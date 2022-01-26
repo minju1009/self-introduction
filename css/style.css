@@ -107,7 +107,7 @@ img{
 
     /* quote */
     .quote__container{
-        top:120px;
+        top : 60px;
         left: 40px;
         animation: appear 1s ease-in;
     }
@@ -228,12 +228,5 @@ img{
     #eat .info__text, #swingdance .info__text{
         padding: 0px 40px;
 
-
-
-
-
-
-
+    }
 }
-
-

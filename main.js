@@ -1,5 +1,17 @@
 'use strict';
 
+const navbar = document.querySelector('#navbar');
+
+window.addEventListener('scroll',() => {
+    if (scrollY > navbar.scrollHeight){
+        navbar.classList.add('black');
+    } else{
+        navbar.classList.remove('black');
+    }
+})
+
+
+
 if (window.matchMedia("(min-width: 768px)").matches){
 
 // Animation for Things and Happy
