@@ -1,5 +1,5 @@
 'use strict';
-
+// Changing the color of the nav as the scroll goes down
 const navbar = document.querySelector('#navbar');
 
 window.addEventListener('scroll',() => {
@@ -8,6 +8,14 @@ window.addEventListener('scroll',() => {
     } else{
         navbar.classList.remove('black');
     }
+})
+
+// navbar shows up when you click the toggle button
+const toggleBtn = document.querySelector(".navbar__toggle-btn");
+const navbarMenu = document.querySelector(".navbar__menu");
+
+toggleBtn.addEventListener('click', ()=> {
+    navbarMenu.classList.toggle('show');
 })
 
 

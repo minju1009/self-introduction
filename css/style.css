@@ -84,8 +84,6 @@ img{
 }
 
 
-
-
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
     /* navbar */
@@ -103,6 +101,10 @@ img{
         text-align: center;
         width: 100%;
         display: none;
+    }
+
+    .show{
+        display: block;
     }
 
     /* quote */
