@@ -11,32 +11,17 @@
 }
 
 
-#tree__main{
-    width: 100%;
-}
-
-#baking__main{
-    width: 100%;
-}
-
-#baking__main{
+.about__container div{
     height: 100%;
-    object-fit: cover;
-}
-
-#photography__main, #travel__main, #workout__main{
-    height: 100%;
+    overflow: hidden;
 }
 
 .about__container img{
-    max-width: 100%;
-    max-height: 100%;
     width: 100%;
     height: 100%;
-    width: auto;
-    height: auto;
     object-fit: cover;
 }
+
 
 
 
@@ -120,58 +105,14 @@
 }
 
 .info__text{
-    padding: 35% 60px 60px;
+    padding: 40% 60px 60px;
     line-height: 1.3em;
+}
+
+#eat .info__text, #swingdance .info__text{
+    padding: 20% 60px 60px;
 }
 
 .info__text span{
     text-decoration: line-through;
 }
-
-/* Make the grid responsive */
-@media only screen and (max-width: 550px){
-    .about__container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        padding: 4px;
-    }
-
-    .about__container img{
-        object-fit: cover;
-    }
-    
-    #eat{
-        grid-row: 1/2;
-    
-    }
-    
-    #tree{
-       grid-row: 2/3;
-    }
-    
-    #stollen{
-        grid-row: 3/4;
-
-    }
-    
-    #swingdance{
-        grid-row: 4/5
-    }
-    
-    #photography{
-        grid-row: 5/6;
-    }
-    
-    #travel{
-        grid-row: 6/7;
-    }
-    
-    #workout{
-        grid-row: 7/8;
-    }
-
-
-
-
-}
-

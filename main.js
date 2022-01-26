@@ -1,8 +1,9 @@
 'use strict';
 
+if (window.matchMedia("(min-width: 768px)").matches){
+
 // Animation for Things and Happy
 const happiness = document.querySelector('#happiness');
-
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY;
@@ -46,3 +47,13 @@ window.addEventListener('scroll',() => {
         and.style.animation = 'disappear 0.6s ease-out forwards'
     }
 })
+} else{
+    
+
+
+
+
+
+
+
+};

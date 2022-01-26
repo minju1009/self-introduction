@@ -23,13 +23,13 @@
 }
 
 .eyebrow {
-    font-size: 1.3vw;
+    font-size: var(--font-regular);
     margin-bottom: 14px;
     
 }
 
 .quote{
-    font-size: 2.7vw;
+    font-size: 45px;
 
 }
 
